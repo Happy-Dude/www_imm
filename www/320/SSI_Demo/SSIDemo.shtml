@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>SHTML Demo</title>
+</head>
+<body>
+    <h2>Examples of SSI commands</h2>
+    <table cellpadding="2px" cellspacing="5px" border="1px">
+        <tr>
+            <th>Command</th><th>Result</th>
+        </tr>
+        <tr>
+            <td>&lt;!--#echo var="DATE_LOCAL"--&gt;</td>
+            <td><!--#echo var="DATE_LOCAL"--></td>
+        </tr>
+        <tr>
+            <td>&lt;!--#echo var="DOCUMENT_NAME"--&gt;</td>
+            <td><!--#echo var="DOCUMENT_NAME"--></td>
+        </tr>
+        <tr>
+            <td>&lt;!--#echo var="HTTP_REFERER"--&gt;</td>
+            <td><!--#echo var="HTTP_REFERER"--></td>
+        </tr>
+        <tr>
+            <td>&lt;!--#echo var="DATE_GMT"--&gt;</td>
+            <td><!--#echo var="DATE_GMT"--></td>
+        </tr>
+        <tr>
+            <td>&lt;!--#echo var="REMOTE_ADDR"--&gt;</td>
+            <td><!--#echo var="REMOTE_ADDR"--></td>
+        </tr>
+        <tr>
+            <td>&lt;!--#echo var="SERVER_ADDR"--&gt;</td>
+            <td><!--#echo var="SERVER_ADDR"--></td>
+        </tr>
+        <tr>
+            <td>&lt;!--#echo var="HTTP_USER_AGENT"--&gt;</td>
+            <td><!--#echo var="HTTP_USER_AGENT"--></td>
+        </tr>
+        <tr>
+            <td>&lt;!--#fsize file="SSIDemo.shtml"--&gt;</td>
+            <td><!--#fsize file="SSIDemo.shtml"--></td>
+        </tr>
+        <tr>
+            <td>&lt;!--#flastmod file="SSIDemo.shtml"--&gt;</td>
+            <td><!--#flastmod file="SSIDemo.shtml"--></td>
+        </tr>
+    </table>
+    
+    <h2>Let's look at dates (on another page)</h2>
+    <a href="SSIDates.shtml">Go to the date page</a>
+        
+</body>
+</html>

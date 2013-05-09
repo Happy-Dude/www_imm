@@ -1,0 +1,104 @@
+#one li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+
+ul#two{
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+}
+
+#two li{
+	display: inline;
+	list-style-type: none;
+}
+
+#two a{
+	padding: 3px 10px;
+}
+
+#two a:link, #two a:visited{
+	color: #fff;
+	background-color:#036;
+	text-decoration: none;
+}
+
+#two a:hover{
+	color: #fff;
+	background-color: #369;
+	text-decoration: none;
+}
+
+
+ul#three{
+	padding-left:0;
+	margin-left:0;
+	background-color: #036;
+	color: white;
+	float: left;
+	width: 100%;
+	font-family: arial, helvetica, sans-serif;
+}
+
+ul#three li {
+	display: inline;
+}
+
+ul#three li a{
+	padding: 0.2em 1em;
+	background-color: #036;
+	color: white;
+	text-decoration:none;
+	float: left;
+	border-right: 1px solid #fff;
+}
+
+ul#three li a:hover{
+	background-color: #369;
+	color:#fff;
+}
+
+
+ul#four{
+	list-style: none;
+	margin: 0;
+	display: inline;
+}
+
+ul#four li{
+	list-style: none;
+	margin: 0;
+	display: inline;
+}
+
+ul#four li a{
+	padding: 3px 0.5em;
+	margin-left: 3px;
+	border: 1px solid #778;
+	border-bottom: none;
+	background: #DDE;
+	text-decoration: none;
+}
+
+ul#four li a:link { 
+	color: #448; 
+}
+
+ul#four li a:visited { 
+color: #667; 
+}
+
+ul#four li a:hover{
+	color: #000;
+	background: #AAE;
+	border-color: #227;
+}
+
+ul#four li a#current{
+	background: white;
+	border-bottom: 1px solid white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Rollover and Image Map ICE</title>
+	<style type="text/css">
+		body {
+			background-color: white;
+		}
+		
+		#icon {
+			display:block;
+			width:83px;
+			height:57px;
+			border:none;
+			outline-style:none;
+			background-image:url(rollover_home.png);
+		}
+		
+		#icon:hover {
+			background-image:url(rollover_hover.png);
+			outline-style:none;
+			border:none;
+		}
+		
+		#icon:active {
+			background-image:url(rollover_down.png);
+			outline-style:none;
+			border:none;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<h1>CSS Image Rollover</h1>
+	<a id="icon" href="#"></a>
+
+	<h1>Image Map Hotspots</h1>
+	<img name="fireworks_rollover" src="fireworks_rollover.jpg" width="500" height="200" border="0" id="fireworks_rollover" usemap="#m_fireworks_rollover" alt="" /><map name="m_fireworks_rollover" id="m_fireworks_rollover">
+	<area shape="rect" coords="347,73,417,124" href="mailto:sxc4244@rit.edu" alt="" />
+	<area shape="rect" coords="186,73,259,124" href="http://www.w3schools.com/" title="w3schools for Web design!" alt="w3schools for Web design!" />
+	<area shape="rect" coords="259,73,347,124" href="http://www.filehippo.com/" title="One of my favorite download sites" alt="One of my favorite download sites" />
+	<area shape="rect" coords="75,73,137,124" href="../index.html" title="Go to my homepage" alt="Go to my homepage" />
+	</map>
+
+</body>
+</html>

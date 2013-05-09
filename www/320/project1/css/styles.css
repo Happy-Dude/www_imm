@@ -1,0 +1,135 @@
+body{
+	background-color:#034769;
+	font-family: verdana,arial,helvetica,sans-serif;
+	font-size: 11pt;
+	color:#ffffff;
+}
+
+h1{
+	font-size: 24pt;
+	color:#deecf2;
+	background-color:#086fa1;
+	padding-top:28px;
+	padding-bottom:28px;
+	padding-left:16px;
+	padding-right:16px;
+	text-align: center;
+	width:500px;
+	font-weight: bold;
+	margin: .5em 0 0 2.5%; 
+
+}
+
+#navigation_bar ul {
+	margin-left: 2em;
+	margin-top: .75em;
+	padding: .2em 1em;
+	list-style-type: none;
+	text-align: left;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	border-left-style:none;
+	border-right-style:none;
+	width: 750px;
+}
+
+#navigation_bar li {
+	display: inline;
+}
+
+#navigation_bar li a {
+	text-decoration: none;
+	padding: .2em 1em;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	background-color:#235d79;
+
+}
+
+#navigation_bar li a:hover{
+	background: none repeat scroll 0% 0% rgb(99, 173, 208); 
+	color: rgb(8, 111, 161);
+	padding: .2em 1em;
+	text-decoration:underline;
+}
+
+#content { 
+	background: #F2F2F2; 
+	margin-left: 2em; 
+	margin-right: 25%;
+	border: 1px solid #CCD4E0; 
+	padding: 1em;
+	padding-bottom: 7em;
+	color:black;
+	text-align: justify;
+}
+
+#content p {
+	padding-left: 1em;
+}
+
+#image{
+    float: right;
+    margin-left: 25px;
+	margin-right: 32px;
+	font-size:7pt;
+	font-family: arial,helvetica,sans-serif;
+}
+
+img {
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+}
+
+h2{
+	font-size: 18pt;
+	text-decoration: underline;
+	color:#63add0;
+	font-weight: bold;
+}
+
+h3 {
+	padding-left: 1em;
+	text-decoration:underline;
+}
+
+a {
+	color:#63add0;
+	text-decoration: none;
+}
+
+a:hover{
+	background: none repeat scroll 0% 0% rgb(99, 173, 208); 
+	color: rgb(8, 111, 161);
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:2px;
+	padding-bottom:2px;
+	text-decoration:underline;
+}
+
+.italic{
+	font-family: arial,helvetica,sans-serif;
+	font-style: italic;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.center{
+	text-align:center;
+	line-height: 1px;
+}
+
+.nospace{
+	line-height: 1px;
+}
+
+.tab{
+	margin-left:2em;
+	margin-right:3em;
+}

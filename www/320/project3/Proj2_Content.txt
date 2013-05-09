@@ -1,0 +1,106 @@
+Stanley Chan
+Content for Project 2
+
+(Best viewed with line wrapping)
+
+Website: Stan's Technology Book Reviews
+(Note: I was pressed for time during the writing of this in order to submit it on time during Thursday. This is my draft and it is the general direction of where my content will go. Once I come back from this weekend at ShmooCon, I will edit and make the content of a higher quality.)
+
+Landing page (index.html)
+	Hello there!
+	
+	My name is Stanley, and I'm your typical geek enthusiast. I love expanding my knowledge about technology and computers through various mediums, such as conventions, magazines, blogs, clubs, and etcetera. One of the most popular and abundant mediums for exploration are books.
+	
+	Computer books are everywhere, and they are practically a compendium of knowledge for those seeking it. Unfortunately, being one of the most popular sources for computing knowledge, it is hard to wade through the volumes of paper bounded by flimsy covers in order to find books with quality writing and geniune knowledge.
+	
+	So... Let me help you-- the curious reader seeking advice on a particular direction for a book-- do that! I will review the technology books that I happen to come across and read, spilling my opinions and thoughts into the hypertext. This website will serve as a guide for your decision on which book to buy, borrow, or pass.
+	
+	Ocassionally, I will also update on my progress of reading of current books, some opinions about current technology news, and maybe even provide some of my own thoughts of other non-technical readings that I do, such as science fiction novels or short stories. Basically, anything that I find of particular interest worth sharing, I will share it.
+	
+	Well? What are you waiting for? Start navigation through the hypertext and start looking for what you want to know more about!
+	
+--------------------------------------------------------------------------------------------------------------
+
+	*Lost sight of goal while writing reviews. Remember- how good are the guides for reference and how good are they for studying.
+	*Give a verdict of buy or not buy (or borrow)
+	*Occassionally put images of cover, diagrams, quotes of the book's writing over the course of a review (like a game review)
+
+--------------------------------------------------------------------------------------------------------------
+
+IMAGE: Book, captions with author, place to buy, and ISBN details (like how Amazon does it)
+Review 1: Mike Meyers' All-in-One CompTIA A+ Exam Guide, 7th Edition
+
+	I picked up this book during my studying for my A+ exam. (I passed, in case you were wondering.) This book is updated for the 2009 CompTIA A+ exam objectives, and it served as my main source of study for the exam.
+	This book comes at a price of $60, and with that money, you get 1300+ pages worth of content. Reading the book cover to cover, I say it’s well worth the money. However, remember to give yourself enough legroom to fully understand the concepts in preparation for the exam.
+	Meyers writers in a logical progression, putting his chapters together in such a way that they can be closely related with each other. If you’ve read about input and output, you wouldn’t be too far from the video cards chapter. I found that very well thought out and effective. Addtionally, he provides  the reader with practice questions after each chapter to review how well they’ve understood (and applied) what they’ve just read.
+	Unfortunately, not all things are good about the book. It is 1300+ pages worth of comprehensive review of many different topics. The book comes in heavy, and leaves the reader tried after a long session of cramming (I suggest reading in manageable bites and not reading in large chunks at once). Being so long, no normal person can quickly recall everything they’ve read with great accuracy. Concerning myself, I was only able to recall the general knowledge and associate it with facts/ common sense on the exam. There was no way (given the time I had) I could’ve memorized every single nook and cranny about printers and their parts…
+	While not a particularly wonderful source of study, it is my go-to reference for anything even vaguely associated with the A+ objectives. I’ve gone back to the book repeatedly to look up information on LCD dot pitch and USB transfer speeds. The diagrams are great for explanations that are better served by a mix of visual representations, and the wit and knowledge of author shines through the words.
+	There are several slight errors in the book, such as grammatical and spelling, but those are easily forgiven as the spirit of the book and the content remains of a consistent quality. The book is well-written and very comprehensive. If you choose to study for the A+ exam, use this book in tandem with any other resource you have, and you can’t go wrong.
+Rating:		4 stars
+	As a reference: 4.75 stars
+	As a study source: 4 stars
+
+--------------------------------------------------------------------------------------------------------------
+
+IMAGE: Book, captions with author, place to buy, and ISBN details (like how Amazon does it)
+Review 2: Mike Meyers’ All-in-One CompTIA Network+ Certification Exam Guide, 4th Ed.
+
+	Another book of Meyers' All-in-One series, the Network+ continues the reader’s ambition of achieving CompTIA certification—in this case, the Network+ one. If you have read my review for his A+ All-in-One guide, you already know I respect Meyers’ knowledge and writing. This book follows the same general layout, with each chapter consisting of a historical overview/ background of the topic and then moving to more applied and practical knowledge needed for the exam. Each chapter closes with review questions to gauge how well you’ve understood the material. Not too much difference, eh?
+	Unfortunately, I’m surprised that for a 4th edition book, the quality of review for the book is disappointing. When I mean the quality of review is something like “what the hell were the editors thinking when they looked over this?!?” There is too much errata in the sections of the book which are probably most confusing and new to the reader. Whereas diagrams visually represent what the writing is trying to convey to the reader, even that is lost when the diagrams themselves are incorrect. I became extremely frustrated while trying to understand routing protocols and NAT, needing to glance over the material several times. I had to cross out the IP addresses from the diagrams and fix it myself, something I shouldn’t need to do for a $60 book all-in-one reference guide, especially when the diagrams are supposed to complement the writing, not obfuscate it more.
+	However, for what it is worth, if the reader is able to look past the (many) errors of the book, you still end up learning quite a lot. At 700+ pages (half of Meyers’ A+ guide, and still at the same price…), I was able to read the book cover to cover and I was able to pass the exam. If the reader has enough critical thinking skills and overall understanding of what (s)he is reading, (s)he should be perfectly capable of fixing those errors and press forward. Additionally, though it really shouldn’t have been necessary, the reader can look up and match information from other sources to check the correctness of the material.
+	For the same price as Meyers’ A+ guide, I did not feel that I got my $60  worth of quality material. While I did learn from the guide, I also had to make sure that what I was reading was correct. I have to a admit, having a heavy technology background helped me decipher the errors from the material (and when it was right, it was good quality study-guide material and a strong reference), but it is when it’s wrong that a person with a weaker background won’t be able to gauge the value of the reading. I fear that the normal reader will go off taking the exam with heavy confidence due to what the book says and come out disappointed and short of $200. For that reason alone, I do not recommend this guide as the single source of study. Remember to keep a heavy watch on the book’s errata on Meyers’ website. While I’d like to recommend the book as a reference guide, even that is hard to do given the quantity of errors…
+Rating:		3.5 stars
+	As a reference: 4 stars
+	As a study guide: 3 stars
+
+--------------------------------------------------------------------------------------------------------------
+
+IMAGE: Book, captions with author, place to buy, and ISBN details (like how Amazon does it)
+Review 3: CompTIA Security+ All-in-One Exam Guide, Second Edition
+
+	My latest review of the McGraw Hill’s CompTIA guides isn’t written by Mike Meyers, but rather by a variety of security professionals. The CompTIA Security+ exam happened to be my weakest subject (where I knew virtually nothing about), but surprisingly, I earned the highest score of the 3 I took.
+	Right off the bat, the book it is $60 and nearly as large as the Network+ guide. But let me tell you, this book is much more comprehensive. It is not heavy on diagrams (unless when necessary), but rather it is heavy on concepts and thoroughness. The quality of the material is great, but amidst the studying and reading, the reader may lose themselves in the heavy bodies of text and the erratic pacing.
+	The chapters regularly overlap and review material from previous chapters, but usually at an unnecessary depth. I understand that they are trying to drill it into the reader, but after the fourth or fifth time, the writers overdid it a bit. However, the review questions following the chapters are great, and serve as one of the strongest guides I had in telling me what I had to look over more.
+	The material the book goes over is generally conceptual and very little practical. A strong emphasis is put on policies and management, which I felt was fine. But the two chapters focused on law—while informative—did not serve much help for me during the actual exam. The body of text around the cryptography section might become hard to get through, but that is perhaps the zenith of the book; after that part, it becomes much easier (and perhaps a tiny bit redundant) afterwards.
+	Like the other two all-in-one guides, the book isn’t without it’s errors. Thankfully, it is nowhere close to the diagram-mishaps of the Network+ guide and more similar to the tiny grammar/ structural/ spelling errors of the A+ guide.
+	As a reference, I am not sure how well this book would stand up. It is heavy on the concepts, and quick and brief on computer-specific details (thankfully). I wouldn’t say the book was necessarily for depth, but for guidance and overview, it serves it’s purpose. There are comprehensive guidelines and best-practices the text suggests, and are wonderful for implementing policies and recommendations. However, for the technical information, there is practically no implementation and the reference for those falls a bit short.
+	Overall, the Security+ All-in-One guide is comprehensive, but also very flawed. It isn’t an easy text to read for studying, having multiple sessions of heavy reading, and it isn’t an in-depth reference either. Rather, I would describe it as “just enough” for the Security+ exam. Using the book in tandem with cram sheets and other materials/ references will get those planning to take the exam into where they want to be. Certainly better and clearer than the Network+ guide, but nowhere as thorough as the A+ guide, the Security+ guide falls somewhere in between.
+Rating:		3.75 stars
+	As a reference: 3 stars
+	As a study guide: 4 stars
+	
+--------------------------------------------------------------------------------------------------------------
+
+About me page:
+
+	<Image of me/>
+
+	My name is Stanley Chan, and I am double majoring in Information Security and Forensics and Applied Networking and Systems Adminstration at the Rochester Institute of Technology. I am a technology enthusiast, and I love learning about computers, programming, and advances in technology. While computers are my main obsession, I also enjoy reading, playing video games, watching movies and television, and hanging out with my friends. I love discovering new and brilliant indie games as well as losing myself in the next science fiction, fantasy, or mystery novel that lands in my hands. 
+	
+	I grew up in New York City, and while I love what opportunities it provides me, Rochester is a nice change of pace. I am staying there to continue my education and advance my personal ambitions. My current plans have not failed me yet, and it doesn't look like I am going to stop!
+	
+--------------------------------------------------------------------------------------------------------------
+
+Current Readings:
+
+	Books I am looking at:
+		Right now, I'm in the middle of reading Learning Web Design by Jennifer Niederst Roberts and Problem Solving in C++ by Walter Savich for my classes.
+			Thoughts: Roberts is a great and enthusiastic writer, making (X)HTML fun to learn. On the other hand, Savich is more of a exploratory book on C++, teaching features, syntax, and thought; it is more dictatorial and does not really try to connect with the reader personally.
+			
+		On my own, I'm switching between reading The TCP/IP Guide by Charles M. Kozierok and NMAP Network Scanning by Gordon "Fydor" Lyon.
+			Lyon definitely has some wit and intelligence, but it is more of a practical application book rather than a theory and exploratory book (it is exploratory in the sense of the program, not the connection between the program and user). TCP/IP is exploratory in the sense that it truly delves into the thought put into the Internet Protocol Suite, giving history, concepts, thoughts, and application of it's various aspects. Of the books I am reading, I truly enjoy Kozierok's writing style.
+			
+--------------------------------------------------------------------------------------------------------------
+
+Expanded content?
+	Miscellaneous readings/ reviews:
+		Isaac Asimov's The End of Eternity; The Last Question
+		
+	Other technical reviews:
+		Bruce Schiner's Secrets and Lies
+		
+	Current Mumblings:
+		Intel's Sandy Bridge chips
+		Books I've just bought
+		ShmooCon
+		Video games (Game Boy Micro!)

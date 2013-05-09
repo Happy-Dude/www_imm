@@ -1,0 +1,29 @@
+body{
+	background-color:#dddddd;
+	color:#383c44;
+	font-family:Courier;
+}
+
+img{
+	float:right;
+}
+
+h1, h2{
+	color:purple;
+	font-family:Verdana;
+	margin-bottom:0;
+}
+
+a:hover{
+	color:green;
+}
+
+.food{
+	color:brown;
+}
+
+#copyright{
+	text-align:center;
+	color:gray;
+	font-size:80%;
+}

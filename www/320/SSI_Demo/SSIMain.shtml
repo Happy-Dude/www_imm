@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>SSI In-class exercise</title>
+    <style type="text/css">
+    #head {
+            padding: 10px;
+            margin: 20px;
+            position:relative;
+            top:10px;
+            left:0px;
+            background: #999;
+            border: 5px solid red;
+            width: 600px; 
+    }
+    #content{
+            padding: 10px;
+            margin: 20px;
+            position:relative;
+            top:10px;
+            left:0px;
+            border: 5px solid orange;
+            width: 600px; 
+            height: 400px;
+            overflow:auto;
+    }
+    #footer{
+            padding: 10px;
+            margin: 20px;
+            position:relative;
+            top:10px;
+            left:0px;
+            background: #999;
+            border: 5px solid green;
+            width: 600px; 
+            height:60px;
+    }
+    </style>
+</head>
+<body>
+   <div id="content">
+	<h2>Echo out the date this file was last modified:</h2>
+	
+	<h3>Here are all of the Environmental variables...</h3>
+</div>
+
+</body>
+</html>

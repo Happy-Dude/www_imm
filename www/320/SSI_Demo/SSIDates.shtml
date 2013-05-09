@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Dates and Back</title>
+</head>
+<body>
+    <h2>Here's something really cool!</h2>
+    <p>Since we can use SSI to find out where we came from (the HTTP_REFERER value), we can dynamically build
+        a "back" button that will always take us back to where we came from.  Check this out!</p>
+    <table cellpadding="2px" cellspacing="5px" border="1px">
+        <tr>
+            <th>Command</th><th>Result</th>
+        </tr>
+        <tr>
+            <td>&lt;!--#echo var="HTTP_REFERER"--&gt;</td>
+            <td><!--#echo var="HTTP_REFERER"--></td>
+        </tr>
+    </table>
+    <p>Here's my "dynamic" link:  <a href=" <!--#echo var="HTTP_REFERER"--> ">Click here to go back!</a></p>
+    
+    <h2>Dates and formatting</h2>
+    <p>The dates we got on the previous page provided more detail than we probably need.  The <strong>#config timefmt=</strong>
+    SSI command allows us to change the details on the date.</p>
+    
+        <table cellpadding="2px" cellspacing="5px" border="1px">
+        <tr>
+            <th>Command</th><th>Result</th>
+        </tr>
+        <tr>
+            <td>&lt;!--#echo var="DATE_LOCAL"--&gt;</td>
+            <td><!--#echo var="DATE_LOCAL"--></td>
+        </tr>
+       <tr>
+            <td>&lt;!--#config timefmt="%a %d %b %y"--&gt;</td>
+            <td><!--#config timefmt="%a %d %b %y"--><!--#echo var="DATE_LOCAL"--></td>
+        </tr>
+       <tr>
+            <td>&lt;!--#config timefmt="%m %d %y"--&gt;</td>
+            <td><!--#config timefmt="%m/%d/%y"--><!--#echo var="DATE_LOCAL"--></td>
+        </tr>
+       <tr>
+            <td>&lt;!--#config timefmt=""%A %B %d, %Y""--&gt;</td>
+            <td><!--#config timefmt="%A %B %d, %Y"--><!--#echo var="DATE_LOCAL"--></td>
+        </tr>
+        </table>
+
+</body>
+</html>

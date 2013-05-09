@@ -1,0 +1,17 @@
+p {font-family: Verdana, sans-serif; font-size: 10.5pt; text-align: justify;}
+
+h1, h2 { border-bottom: 1px solid black; clear: both;}
+
+html { background: url("101050.png") fixed; }
+
+body { background: #F2F2F2; margin: 2em 10% 2em 10%; border: 1px solid #CCD4E0; padding: 1em;}
+
+img { float: right; }
+
+#t4bplLogo { float: left; margin: 1em;}
+
+#pageProgress img { float: none; margin: 0.5em; }
+
+img { margin: auto 1em auto 1em; }
+
+#pageProgress a img { border: 1px solid #CCD4E0; }

@@ -1,0 +1,206 @@
+html, body{
+	width:auto;
+	height:100%;
+	font-family: verdana,arial,helvetica,sans-serif;
+	font-size: 11pt;
+}
+
+#header {
+	/*font-size:large;
+	text-align: left;
+	padding: 0.3em 0;
+	padding-left: 5%;*/
+	padding: 0;
+	margin: 0;
+	line-height: 0;
+	background: #ffaa40;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#left{
+	float:left;
+	height:160%;
+	width:16%;
+	background-color:#ffc173;
+}
+
+#left_header{
+	text-align:center;
+	border:2px;
+	border-style:solid;
+	border-color:black;
+	width:98.5%;
+	background-color:#bf8030;
+	font-family: arial, helvetica;
+}
+
+#container{
+	float:left;
+	width:84%;
+	height:160%;
+	background-color:#ffc173;
+}
+
+#center{
+	float:left;
+	width:78%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	margin-top:-1em;
+	background-color:white;
+	height:100%;
+}
+
+#right{
+	float:left;
+	width:16%;
+	height:auto;
+	background-color:#ffc173;
+}
+
+#navbar{
+	margin-left:1px;
+	margin-top:-1em;
+}
+
+ul#nav{
+	padding-left:0;
+	margin-left:0;
+	background-color: #a65c00;
+	color: white;
+	float: left;
+	width: 100%;
+	font-family: arial, helvetica, sans-serif;
+}
+
+ul#nav li {
+	display: inline;
+}
+
+ul#nav li a{
+	padding: 0.2em 1em;
+	color: white;
+	text-decoration:none;
+	float: left;
+	border-right: 1px solid #fff;
+}
+
+ul#nav li a#active{
+	padding: 0.2em 1em;
+	text-decoration:none;
+	float: left;
+	border-right: 1px solid black;
+	background-color:#ffffff;
+	color: black;
+	text-decoration: underline;
+}
+
+ul#nav li a:hover{
+	background-color: #ff8e00;
+	color:#fff;
+}
+
+ul#reviews{
+	list-style-type:square;
+	padding-top:5px;
+	padding-left:24px;
+	padding-right:24px;
+	padding-bottom:20px;
+}
+
+ul#reviews li{
+	list-style-position: inside;
+}
+
+ul#reviews li a{
+	text-decoration:none;
+	color:black;
+}
+
+ul#reviews li:hover{
+	background-color:#ff9773;
+}
+
+ul.sitemap_under{
+	list-style-type: lower-roman;
+	padding-left:5em;
+}
+
+ul.sitemap li{
+	line-height: 2em;
+}
+
+li{
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+#active{
+	background-color:#ffffff;
+	color: black;
+	text-decoration: underline;
+}
+
+th, td{
+	font-size:80%;
+	border-spacing: .2em;
+	border-collapse: separate;
+	width: 150px;
+	text-align:center;
+	padding:.2em;
+}
+
+table#bookinfo{ 
+	border-style:solid;
+	border-color:black;
+	font-size:80%;
+	border-spacing: .2em;
+	border-collapse: separate;
+	text-align:center;
+	padding:.2em;
+}
+
+table#bookreview{
+	border:1px;
+	border-style:solid;
+	border-color:black;
+	text-align:center;
+	padding:.2em;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#book_cover{
+	float:left;
+}
+
+#mugshot{
+	float:right;
+}
+
+#mugshot:link{
+	float:right;
+	height:422px;
+	width:254px;
+	display:block;
+	border:none;
+	outline-style:none;
+	background-image:url('../images/question.gif');
+}
+
+#mugshot:hover{
+	background-image:url('../images/pic.jpg');
+	outline-style:none;
+	border:none;
+}
+
+#mugshot:active {
+	background-image:url('../images/pic.jpg');
+	outline-style:none;
+	border:none;
+}
+
+object{
+	padding: 2em;
+	padding-left:10em;
+}

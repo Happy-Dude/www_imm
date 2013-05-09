@@ -1,0 +1,136 @@
+html, body{
+	width:auto;
+	height:100%;
+	font-family: verdana,arial,helvetica,sans-serif;
+	font-size: 11pt;
+}
+
+#header {
+	font-size:large;
+	text-align: left;
+	padding: 0.3em 0;
+	padding-left: 5%;
+	background: #FFAA40;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#left{
+	float:left;
+	height:150%;
+	width:16%;
+	background-color:#FFC173;
+}
+
+#left_header{
+	text-align:center;
+	border:2px;
+	border-style:solid;
+	border-color:black;
+	width:98.5%;
+	background-color:#BF8030;
+	font-family: arial, helvetica;
+}
+
+#container{
+	float:left;
+	width:84%;
+	height:150%;
+	background-color:#FFC173;
+}
+
+#center{
+	float:left;
+	width:78%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	margin-top:-1em;
+	background-color:white;
+	height:100%;
+}
+
+#right{
+	float:left;
+	width:16%;
+	height:auto;
+	background-color:#FFC173;
+}
+
+#navbar{
+	margin-left:1px;
+	margin-top:-1em;
+}
+
+ul#nav{
+	padding-left:0;
+	margin-left:0;
+	background-color: #A65C00;
+	color: white;
+	float: left;
+	width: 100%;
+	font-family: arial, helvetica, sans-serif;
+}
+
+ul#nav li {
+	display: inline;
+}
+
+ul#nav li a{
+	padding: 0.2em 1em;
+	background-color: #A65C00;
+	color: white;
+	text-decoration:none;
+	float: left;
+	border-right: 1px solid #fff;
+}
+
+ul#nav li a:hover{
+	background-color: #FF8E00;
+	color:#fff;
+}
+
+
+ul#reviews{
+	list-style-type:square;
+	padding-top:5px;
+	padding-left:24px;
+	padding-right:24px;
+	padding-bottom:20px;
+}
+
+ul#reviews li a{
+	text-decoration:none;
+	color:black;
+}
+
+ul#reviews li:hover{
+	background-color:#FF9773;
+}
+
+th, td{
+	font-size:80%;
+	border-spacing: .2em;
+	border-collapse: separate;
+	width: 150px;
+	text-align:center;
+	padding:.2em;
+}
+
+table#bookinfo{ 
+	border-style:solid;
+	border-color:black;
+	font-size:80%;
+	border-spacing: .2em;
+	border-collapse: separate;
+	text-align:center;
+	padding:.2em;
+}
+
+table#bookreview{
+	border:1px;
+	border-style:solid;
+	border-color:black;
+	text-align:center;
+	padding:.2em;
+	margin-left: auto;
+	margin-right:auto;
+}
